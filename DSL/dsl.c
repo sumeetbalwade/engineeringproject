@@ -26,12 +26,13 @@ void avg();                             //function for calculating average
 void input();                           //function for taking input in array
 void display();                         //function for displaying the data
 void mocc();                            //function for calculating maximum occurance marks of students 
-
+void entry();
 
 
 int main()                              //main function
 {
     int f=1;                            //flag for termination on loop
+    entry();
     system("cls");                      //clear screen function
       
     
@@ -227,6 +228,14 @@ int menu()                              //function for printing main menu
     return 1;
 }
 
+void entry()
+{
+    printf("\t\t\tASSIGNMENT NO 1 \n\nWrite a C Program to store marks scored for first test of subject 'Data Structure and Algorithm ' for N students. Compute\n");
+    printf("1.The Average Score of Class.\n2. Highest Score and lowest Score of class.\n3. Marks score by most of the student.\n4. list of student who where absent for test.\n");
+    printf("Assignment by SUMEET BALWADE\nGuided by NIMBALKAR SIR\n");
+
+    system("pause");
+}
 
 //IMPORTANT
 void mocc()                 //function for calculating maximum occurance marks of students
