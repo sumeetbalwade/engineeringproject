@@ -44,12 +44,29 @@ public:
         rollno = roll;
         strcpy(assignment,assi);
     }
-    void diaplay()
+    
+    void display()
     {
         cout<<"\n\t "<<assignment;
     }
 };
 
+void assignment_input_all(char assi[])
+{
+    ifstream fin;
+    ofstream ain;
+    student obj;
+    assignment o;
+    ain.open("assignment.txt",ios::app);
+    fin.open("student.txt");
+    while (fin.read((char*) &obj,sizeof(obj)))
+    {
+        o.input(obj.rollno,assi);
+        ain.write((char*) &o,sizeof(o));
+    }
+    fin.close();
+    ain.close();
+}
 
 void read_assignment(unsigned short int rollno)
 {
@@ -66,6 +83,13 @@ void read_assignment(unsigned short int rollno)
     fin.close();
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -216,6 +240,15 @@ void teacher_login()
 
 
 
+
+
+
+
+
+
+
+
+
 void student::display()
 {
     cout<<"\n\n\t\t\t STUDENTS DETAILS ";
@@ -358,9 +391,11 @@ void student_login()
 }
 
 
+
+
 int main(int argc, char const *argv[])
 {
-    //register_student();
+    register_student();
     //read_student(1);
     //student_login();
     //register_teacher();
