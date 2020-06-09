@@ -3,6 +3,10 @@ package com.sumeetbalwade;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        var obj = new Student();
+        obj.input();
+        obj.display();
+
+
     }
 }
