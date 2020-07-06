@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b436f0e4-649a-4a75-afd3-63ba2d0e74d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hello world/src/com/sumeetbalwade/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello world/src/com/sumeetbalwade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello world/src/com/sumeetbalwade/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1e1r8dCM6Lh0Qc2TdoiSBEhNWl5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b436f0e4-649a-4a75-afd3-63ba2d0e74d7" name="Default Changelist" comment="" />
+      <created>1593499781580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593499781580</updated>
+    </task>
+    <servers />
+  </component>
+</project>
